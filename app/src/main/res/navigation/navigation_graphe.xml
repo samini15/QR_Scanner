@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graphe"
+    android:label="QR code scan"
+    app:startDestination="@id/codeListFragment">
+
+    <fragment
+        android:id="@+id/codeListFragment"
+        android:name="com.shayan.qrnfcscanner.fragments.CodeListFragment"
+        android:label="QR code list"
+        tools:layout="@layout/fragment_code_list">
+        <action
+            android:id="@+id/action_codeListFragment_to_QRCodeScannFragment"
+            app:destination="@id/QRCodeScannFragment" />
+        <action
+            android:id="@+id/action_codeListFragment_to_QRCodeDetailFragment"
+            app:destination="@id/QRCodeDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/QRCodeScannFragment"
+        android:name="com.shayan.qrnfcscanner.qrcode.QRCodeScannFragment"
+        android:label="QR code scan"
+        tools:layout="@layout/fragment_q_r_code_scann" />
+    <fragment
+        android:id="@+id/QRCodeDetailFragment"
+        android:name="com.shayan.qrnfcscanner.qrcode.QRCodeDetailFragment"
+        android:label="fragment_q_r_code_detail"
+        tools:layout="@layout/fragment_q_r_code_detail" >
+        <argument
+            android:name="codeId"
+            app:argType="string" />
+    </fragment>
+</navigation>

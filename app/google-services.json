@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "856987522472",
+    "project_id": "qr-nfc-scanner",
+    "storage_bucket": "qr-nfc-scanner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856987522472:android:45c4ec559c0d28352f799d",
+        "android_client_info": {
+          "package_name": "com.shayan.qrnfcscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856987522472-8503381dfttvtlunchjbbs64igslp674.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3O_SdTyaOMDbS19j8HBzZ0TwPe-978oY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856987522472-8503381dfttvtlunchjbbs64igslp674.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

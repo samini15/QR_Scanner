@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QR NFC Scanner</string>
+    <string name="date_created">12/09/2020 10:10</string>
+    <string name="code_url">http://hello.com</string>
+    <string name="scan_date">Scan date</string>
+    <string name="label_url">URL</string>
+    <string name="title_qr_code">QR code</string>
+    <string name="todo">TODO</string>
+    <string name="fab_label">QRCode</string>
+</resources>
